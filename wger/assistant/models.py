@@ -38,7 +38,8 @@ logger = logging.getLogger(__name__)
 STATES = ('new', 'find_workout', 'overview', 'performing', 'set_in_progress', 'set_done', 'end_workout')
 STATES = list(zip(STATES, STATES))
 
-WGER_TOKEN = 'Token c5cd813fd3568577ef2a5004fab8e5a4880a2738'
+WGER_TOKEN = 'Token REPLACE YOUR TOKEN HERE'
+
 
 #
 # Classes
